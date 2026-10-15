@@ -8,6 +8,7 @@
         Background="Yellow">
     <Grid>
         <TextBlock Text="Technikum technologii cyfrowych"
+                   FontWeight="Bold"
                    HorizontalAlignment="Right"
                    VerticalAlignment="Top"
                    Margin="15"
