@@ -27,5 +27,11 @@
                        FontSize="16"
                        HorizontalAlignment="Center" />
         </StackPanel>
+
+        <TextBlock Text="Zadanie 2.3"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Bottom"
+                   Margin="15"
+                   Foreground="Black" />
     </Grid>
 </Window>
