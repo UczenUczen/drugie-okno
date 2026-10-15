@@ -6,7 +6,7 @@
         x:Class="okno.MainWindow"
         Title="okno"
         CanResize="False"
-        RequestedThemeVariant="Dark">
+        RequestedThemeVariant="Default">
 
     <Window.Resources>
         <ResourceDictionary>
