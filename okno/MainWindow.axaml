@@ -7,6 +7,22 @@
         Title="okno"
         CanResize="False"
         RequestedThemeVariant="Dark">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Light">
+                    <SolidColorBrush x:Key="WarsztatBg">Black</SolidColorBrush>
+                    <SolidColorBrush x:Key="WarsztatFg">White</SolidColorBrush>
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="Dark">
+                    <SolidColorBrush x:Key="WarsztatBg">White</SolidColorBrush>
+                    <SolidColorBrush x:Key="WarsztatFg">Black</SolidColorBrush>
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
     <Grid>
         <TextBlock Text="Technikum technologii cyfrowych"
                    FontWeight="Bold"
@@ -18,8 +34,8 @@
                     VerticalAlignment="Center"
                     Spacing="10">
             <TextBlock Text="Warsztat"
-                       Foreground="White"
-                       Background="Black"
+                       Foreground="{DynamicResource WarsztatFg}"
+                       Background="{DynamicResource WarsztatBg}"
                        Padding="10,5"
                        HorizontalAlignment="Center" />
             <TextBlock x:Name="DateTimeTextBlock"
