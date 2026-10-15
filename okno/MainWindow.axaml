@@ -8,6 +8,8 @@
         Background="Yellow">
     <TextBlock Text="Warsztat"
                Foreground="White"
+               Background="Black"
+               Padding="10,5"
                HorizontalAlignment="Center"
                VerticalAlignment="Center" />
 </Window>
