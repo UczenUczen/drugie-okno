@@ -44,6 +44,7 @@
         </StackPanel>
 
         <TextBlock Text="Zadanie 2.3"
+                   FontStyle="Italic"
                    HorizontalAlignment="Left"
                    VerticalAlignment="Bottom"
                    Margin="15" />
