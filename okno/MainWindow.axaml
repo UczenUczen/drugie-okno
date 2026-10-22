@@ -48,5 +48,11 @@
                    HorizontalAlignment="Left"
                    VerticalAlignment="Bottom"
                    Margin="15" />
+
+        <TextBlock Text="Zadanie skończone"
+                   Foreground="Blue"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Bottom"
+                   Margin="15" />
     </Grid>
 </Window>
